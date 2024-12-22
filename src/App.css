@@ -1,0 +1,43 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+.light-on {
+  background-color: rgb(240, 240, 228);
+  color: black;
+}
+
+.light-off {
+  background-color: rgb(57, 53, 53);
+}
+
+button:hover {
+  background-color: aliceblue;
+  color: black;
+}
+
+.light-status {
+  padding: 50px;
+  border-radius: 12px;
+  text-align: center;
+  margin: 30px;
+  font-size: 1.5rem;
+  width: 550px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ccc;
+}
